@@ -19,7 +19,7 @@ data "aws_iam_policy_document" "github_access_policy" {
       condition {
         test = "StringLike"
         variable = "token.actions.githubusercontent.com:sub"
-        values = ["repo:Satya2200/*:*"]
+        values = ["repo:Satya220/*:*"]
       }
     }
 }
